@@ -1,3 +1,7 @@
+var SPEED = 128,
+	FIRE_RATE = 0.185,
+	FIRE_PRECISION = 0.05;
+
 class entity_player_t extends entity_t {
 	_init() {
 		this._bob = this._last_shot = this._last_damage = this._frame = 0;
@@ -5,7 +9,7 @@ class entity_player_t extends entity_t {
 
 	_update() {
 		var t = this,
-			speed = 128;
+			speed = SPEED;
 
 		// movement
 		t.ax = keys[key_left] ? -speed : keys[key_right] ? speed : 0;
@@ -27,8 +31,8 @@ class entity_player_t extends entity_t {
 
 		if (keys[key_shoot] && t._last_shot < 0) {
 			audio_play(audio_sfx_shoot);
-			new entity_plasma_t(t.x, 0, t.z, 0, 26, angle + _math.random() * 0.2 - 0.11);
-			t._last_shot = 0.35;
+			new entity_plasma_t(t.x, 0, t.z, 0, 26, angle + _math.random() * FIRE_PRECISION);
+			t._last_shot = FIRE_RATE;
 		}
 
 		super._update();

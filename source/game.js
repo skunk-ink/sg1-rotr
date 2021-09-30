@@ -1,3 +1,5 @@
+// GLOBAL VARIABLES
+var SPAWN_BOUNDRY = 100;
 
 var udef, // global undefined
 	_math = Math,
@@ -89,19 +91,24 @@ function load_level(id, callback) {
 						}
 					}
 
-					// cpu
+					// cpu (blue)
 					if (color_key === 0x00f) {
 						level_data[index] = 8;
 						new entity_cpu_t(x*8, 0, y*8, 0, 18);
 						cpus_total++;
 					}
 
-					// sentry
+					// Replicator spawn ()
+					if (color_key === 0xff0) {
+						new entity_spider_t(x*8, 0, y*8, 5, 27);
+					}
+
+					// Goa'uld (red)
 					if (color_key === 0xf00) {
 						new entity_sentry_t(x*8, 0, y*8, 5, 32);
 					}
 
-					// player start position (blue)
+					// player start position (green)
 					if (color_key === 0x0f0) {
 						entity_player = new entity_player_t(x*8, 0, y*8, 5, 18);	
 					}
@@ -114,8 +121,8 @@ function load_level(id, callback) {
 			var e = entities[i];
 			if (
 				e instanceof(entity_spider_t) &&
-				_math.abs(e.x - entity_player.x) < 64 &&
-				_math.abs(e.z - entity_player.z) < 64
+				_math.abs(e.x - entity_player.x) < SPAWN_BOUNDRY &&
+				_math.abs(e.z - entity_player.z) < SPAWN_BOUNDRY
 			) {
 				entities_to_kill.push(e);
 			}
@@ -167,6 +174,14 @@ _document.onmousemove = function(ev) {
 }
 
 _document.onmousedown = function(ev) {
+	if(! window.focus()) {
+		window.focus();
+		
+		if (document.activeElement) {
+			document.activeElement.blur();
+		}
+	}
+
 	keys[key_shoot] = 1;
 	preventDefault(ev);
 }
