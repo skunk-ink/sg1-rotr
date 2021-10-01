@@ -1,8 +1,8 @@
 {
   "background_color": "#fff",
   "display": "standalone",
-  "homepage_url": "https://github.com/skunk-ink/stargate-sg1-rotr",
-  "providedBy": { "name": "skunk-ink", "url": "https://github.com/skunk-ink/stargate-sg1-rotr" },
+  "homepage_url": "https://github.com/skunk-ink/sg1-rotr",
+  "providedBy": { "name": "skunk-ink", "url": "https://github.com/skunk-ink/sg1-rotr" },
   "icons": [
     {
       "src": "./img/192x192_App_Icon.png",
@@ -18,10 +18,10 @@
     }
   ],
   "orientation": "portrait",
-  "name": "Underrun",
-  "description": "Doom-esque game that will bring you right back to the 90's",
+  "name": "SG1: Return Of The Replicators",
+  "description": "Join Jack, Sam, Teal'c and Daniel as they battle to save the galaxy from the resurgence of the replicators!",
   "iconPath": "./img/256x256_App_Icon.png",
-  "short_name": "Underrun",
+  "short_name": "SG1: ROTR",
   "start_url": ".",
   "theme_color": "#ff007a",
   "skylink": "AQBHlfViZErCILTSEE9jS35_m3Rbw4XZosIwmYWuHqS6wQ",
