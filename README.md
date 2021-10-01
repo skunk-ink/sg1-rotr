@@ -1,4 +1,4 @@
-<img src="https://siasky.net/MADZfA3AiPj-y05ftxR7daIp0eqlcthFAM617palM6yLqg" alt="Rift" width="100%" />
+<img src="./img/readme_banner.png" alt="SG1: Return Of The Replicators"/>
 
 # SG1: Return Of The Replicators
 
