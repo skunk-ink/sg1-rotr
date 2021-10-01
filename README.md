@@ -1,15 +1,15 @@
-# SG1: Return Of The Replicators
+<img src="https://siasky.net/MADZfA3AiPj-y05ftxR7daIp0eqlcthFAM617palM6yLqg" alt="Rift" width="100%" />
 
-![SG1: Return Of The Replicators](https://siasky.net/MADZfA3AiPj-y05ftxR7daIp0eqlcthFAM617palM6yLqg)
+# SG1: Return Of The Replicators
 
 
 [![Add to Homescreen](https://siasky.net/CADKZ7bTyVRjMmyMnEsUKDidqdmdaNHaJP25cp_3YGQlkg)](https://homescreen.hns.siasky.net/#/skylink/AQBHlfViZErCILTSEE9jS35_m3Rbw4XZosIwmYWuHqS6wQ)
 
 > Join **Jack**, **Sam**, **Teal'c** and **Daniel** as they battle to save the galaxy from the **Return Of The Replicators**!
 
-Original game by: **[phoboslab](https://github.com/phoboslab/underrun)**
+###### Original game by: [phoboslab](https://github.com/phoboslab/underrun)
 
-Updated and repackaged by: **[skunk-ink](https://github.com/skunk-ink/underrun)**
+###### Updated and repackaged by: [skunk-ink](https://github.com/skunk-ink/underrun)
 
 
 *[PLAY NOW!](https://homescreen.hns.siasky.net/#/skylink/AQBHlfViZErCILTSEE9jS35_m3Rbw4XZosIwmYWuHqS6wQ)*
