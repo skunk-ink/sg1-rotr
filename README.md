@@ -12,7 +12,7 @@
 
 
 
-## *[PLAY NOW!](https://homescreen.hns.siasky.net/#/skylink/AQB-98WxxtM-1q4EnL5VODBGHiE7oHxBido4XxVwD4Hajw)*
+## *[PLAY NOW!](siasky.net/AQB-98WxxtM-1q4EnL5VODBGHiE7oHxBido4XxVwD4Hajw)*
 
 
 #### Credits and Licensing
