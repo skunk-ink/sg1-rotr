@@ -4,7 +4,7 @@
 
 [![Add to Homescreen](https://siasky.net/CADKZ7bTyVRjMmyMnEsUKDidqdmdaNHaJP25cp_3YGQlkg)](https://homescreen.hns.siasky.net/#/skylink/AQBHlfViZErCILTSEE9jS35_m3Rbw4XZosIwmYWuHqS6wQ)
 
-
+> Join **Jack**, **Sam**, **Teal'c** and **Daniel** as they battle to save the galaxy from the **Return Of The Replicators**!
 
 Original game by: **[phoboslab](https://github.com/phoboslab/underrun)**
 
