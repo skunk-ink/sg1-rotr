@@ -1,5 +1,6 @@
 # SG1: Return Of The Replicators
 
+![SG1: Return Of The Replicators](https://siasky.net/TAC6kqT-n1HDfHDCltkqPxbQIYZEahZJ4JU_8O9TknA9xw)
 
 
 [![Add to Homescreen](https://siasky.net/CADKZ7bTyVRjMmyMnEsUKDidqdmdaNHaJP25cp_3YGQlkg)](https://homescreen.hns.siasky.net/#/skylink/AQBHlfViZErCILTSEE9jS35_m3Rbw4XZosIwmYWuHqS6wQ)
