@@ -1,13 +1,7 @@
 
 var terminal_text_ident = '&gt; ';
 var terminal_text_title = '' +
-	'UNDERRUN\n' +
-	'__ \n' +
-	'CONCEPT, GRAPHICS &AMP; PROGRAMMING:\n' +
-	'DOMINIC SZABLEWSKI // PHOBOSLAB.ORG\n' +
-	'__ \n' +
-	'MUSIC:\n' +
-	'ANDREAS LÖSCH // NO-FATE.NET\n' +
+	'SG1: Return Of The Replicators\n' +
 	'___ \n' +
 	'SYSTEM VERSION: 13.20.18\n' +
 	'CPU: PL(R) Q-COATL 7240 @ 12.6 THZ\n' +
@@ -51,20 +45,6 @@ var terminal_text_outro =
 	'SENT: SEP. 13, 2018\n' +
 	'RCVD: SEP. 13, 2718\n \n' +
 	
-	'THANKS FOR PLAYING ❤_ \n' +
-	'I HAVE PREVIOUSLY BEEN A PROUD SPONSOR OF THE JS13K\n' +
-	'COMPETITION SINCE THE VERY FIRST ONE BACK IN 2012.\n' +
-	'HOWEVER, THIS YEAR\'S COMPETITION WAS MY FIRST ONE\n' +
-	'AS A PARTICIPANT AND IT HAS BEEN TREMENDOUS FUN!\n \n' +
-	
-	'I WANT TO THANK MY DEAR FRIEND ANDREAS LÖSCH OF\n' +
-	'NO-FATE.NET FOR COMPOSING SOME AWESOME MUSIC ON\n' + 
-	'SUCH SHORT NOTICE.\n \n' +
-
-	'FURTHER THANKS GO OUT TO THE JS13K STAFF, THE\n' +
-	'SONANT-X DEVELOPERS AND ALL OTHER PARTICIPANTS\n' +
-	'IN THIS YEAR\'S JS13K. SEE YOU NEXT YEAR!\n \n' +
-	'DOMINIC__' +
 	'END OF TRANSMISSION';
 
 var terminal_text_buffer = [],
